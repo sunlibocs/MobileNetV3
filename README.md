@@ -4,22 +4,22 @@
 
 ## Summary
 
-The model.py comes from https://github.com/xiaolai-sqlai/mobilenetv3 
+- The model.py comes from https://github.com/xiaolai-sqlai/mobilenetv3 
 
-We test both small and large mobileNetv3 on CIFAR-100 using our trained model, train code and test code. Our trained mode can be found from ./checkpoint
+- We test both small and large mobileNetv3 on CIFAR-100 using our trained model, train code and test code. Our trained mode can be found from ./checkpoint
 
-For the experiment on imageNet, we didn't train our own model, and we just use the contained pretrained model from the above link. We found that there is a accuracy difference between our result and their result. We got acc1 of 65.07%, while they obatained 69.037%. This difference was also issued by someone else - https://github.com/xiaolai-sqlai/mobilenetv3/issues/18
+- For the experiment on imageNet, we didn't train our own model, and we just use the contained pretrained model from the above link. We found that there is a accuracy difference between our result and their result. We got an acc1 of 65.07%, while they obatained 69.037%. This difference was also issued by someone else - https://github.com/xiaolai-sqlai/mobilenetv3/issues/18
 
 
 ## Experiments
--For CIFAR-100 and imageNet data, we experimented with resize (224, 224).
+- For CIFAR-100 and imageNet data, we experimented with resize (224, 224).
 
 | Datasets | Model | Accuracy | Epoch | Training Time | Parameters |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | CIFAR-100 | MobileNetV3-LARGE | 69.92% | 34 | 3h 58min | 2.8M|
 | CIFAR-100 | MobileNetV3-SMALL | 68.67% | 35 | 1h 25min | 1.35M|
 
--For imageNet, we didn't train our own model. We just report the results from original paper, the pretrained model provider and ourselves(use the same pretrained model). 
+- For imageNet, we didn't train our own model. We just report the results from original paper, the pretrained model provider and ourselves(use the same pretrained model). 
 
 | Datasets | Model | Accuracy | Parameters |
 | :---: | :---: | :---: | :---: |
@@ -29,4 +29,4 @@ For the experiment on imageNet, we didn't train our own model, and we just use t
 | IMAGENET | MobileNetV3-SMALL(Ours) | 65.07% | 2.52M | 
 ## Environment
 - torch==1.1.0
-- 32G Mem + 1GPU
+- 32G Mem + 1GPU(K80)
