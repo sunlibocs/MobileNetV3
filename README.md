@@ -20,6 +20,7 @@ For CIFAR-100 and imageNet data, we experimented with resize (224, 224).
 | CIFAR-100 | MobileNetV3(SMALL) | 68.67% | 35 | 1h 25min | 1.35M|
 
 For imageNet, we didn't train our own model. We just report the results from original paper, the pretrained model provider and ourselves(use the same pretrained model). 
+
 | Datasets | Model | Accuracy | Epoch | Training Time | Parameters |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | IMAGENET | MobileNetV3-LARGE(paper)| 75.2% | | 5.4M | 
