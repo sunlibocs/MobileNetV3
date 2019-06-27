@@ -29,4 +29,4 @@
 | IMAGENET | MobileNetV3-SMALL(Ours) | 65.07% | 2.52M | 
 ## Environment
 - torch==1.1.0
-- 32G Mem + 1GPU(K80)
+- 32G Mem + 1GPU
