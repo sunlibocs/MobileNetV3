@@ -22,11 +22,11 @@ For the experiment on imageNet, we didn't train our own model, and we just use t
 -For imageNet, we didn't train our own model. We just report the results from original paper, the pretrained model provider and ourselves(use the same pretrained model). 
 
 | Datasets | Model | Accuracy | Parameters |
-| :---: | :---: | :---: | :---: | :---: |
-| IMAGENET | MobileNetV3-LARGE(paper)| 75.2% | | 5.4M | 
-| IMAGENET | MobileNetV3-SMALL(paper)| 67.4%| | 2.9M | 
-| IMAGENET | MobileNetV3-SMALL(pretrained model provider)| 69.037% | |2.52M | 
-| IMAGENET | MobileNetV3-SMALL(Ours) | 65.07% | |2.52M | 
+| :---: | :---: | :---: | :---: |
+| IMAGENET | MobileNetV3-LARGE(paper)| 75.2% | 5.4M | 
+| IMAGENET | MobileNetV3-SMALL(paper)| 67.4%| 2.9M | 
+| IMAGENET | MobileNetV3-SMALL(pretrained model provider)| 69.037% | 2.52M | 
+| IMAGENET | MobileNetV3-SMALL(Ours) | 65.07% | 2.52M | 
 ## Environment
 - torch==1.1.0
 - 32G Mem + 1GPU
